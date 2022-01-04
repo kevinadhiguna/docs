@@ -34,6 +34,11 @@ Press the "Create" button at the bottom of the page.
 
 ![Simple saved job form](~@assets/img/fig0303.png)
 
+:::tip
+Scheduled jobs contains username and group data from the last user who modified its scheduled behavior.
+That information is necessary to evaluate any required ACL and is preserved even if the user or group is removed.
+:::
+
 After the the job is created, the browser is directed to the page of the job you just created. The job can be run by clicking the Run Job Now button.
 
 ![Simple job form](~@assets/img/fig0303-a.png)
@@ -230,6 +235,9 @@ will be displayed when the Job is listed:
 
 ![Scheduled job icon](~@assets/img/fig0308.png)
 
+:::warning
+If cluster mode is enabled, any change to the execution schedule when editing a job will take a few seconds to take effect. This is because the job take over message needs to be processed by the instance that owns the job to change the schedule configuration.
+:::
 ### Job Notifications
 
 Job notifications are messages triggered by a job event.

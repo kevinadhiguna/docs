@@ -109,8 +109,8 @@ module.exports = {
     sidebar: {
       '/about/': sidebarAbout,
       '/administration/': sidebarAdmin,
-      '/upgrading/':sidebarAdmin,
-      '/manual/command-line-tools/': sidebarCommandLineTools,
+      '/upgrading/': sidebarUpgrading,
+      '/rd-cli/': sidebarCommandLineTools,
       '/manual/': sidebarUserGuide,
       '/learning/': sidebarLearning,
       '/developer/': sidebarDeveloper,

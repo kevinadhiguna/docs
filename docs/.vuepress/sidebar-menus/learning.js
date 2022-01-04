@@ -43,7 +43,8 @@ module.exports = [{
               '/learning/howto/migrate-to-rundeck-packages-repo.md',
               '/learning/howto/install-centos.md',
               '/learning/howto/migrate-to-mysql.md',
-              '/learning/howto/use-terraform-provider.md'
+              '/learning/howto/use-terraform-provider.md',
+              '/learning/howto/learn-rd-cli.md'
           ]
         },
         {
@@ -62,7 +63,8 @@ module.exports = [{
           children: [
               '/learning/howto/use-example-jobs.md',
               '/learning/howto/passing-variables.md',
-              '/learning/howto/calling-apis.md'
+              '/learning/howto/calling-apis.md',
+              '/learning/howto/log4shell.md'
           ]
         },
         {
@@ -74,7 +76,8 @@ module.exports = [{
               '/learning/howto/pagerduty-notification.md',
               '/learning/howto/using-ansible.md',
               '/learning/howto/config-sn-nodesource.md',
-              '/learning/howto/configure-gcp-plugins.md'
+              '/learning/howto/configure-gcp-plugins.md',
+              '/learning/howto/sn-midserver.md'
           ]
         },
         {
