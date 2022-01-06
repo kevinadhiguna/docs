@@ -13,29 +13,29 @@ Check out the new features and enhancements for Rundeck Enterprise and Rundeck C
 ## Enterprise Updates
 
 {% for pull in enterprise.pulls -%}
-* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") }}
+* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") | replace(r/RDCLOUD-[0-9]*:?\s?/g, "") }}
 {% endfor %}
 ### System Report
 {% for pull in systemreport.pulls -%}
-* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") }}
+* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") | replace(r/RDCLOUD-[0-9]*:?\s?/g, "") }}
 {% endfor %}
 ### Enterprise Schedules
 {% for pull in schedules.pulls -%}
-* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") }}
+* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") | replace(r/RDCLOUD-[0-9]*:?\s?/g, "") }}
 {% endfor %}
 ### Enterprise Calendars
 {% for pull in calendars.pulls -%}
-* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") }}
+* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") | replace(r/RDCLOUD-[0-9]*:?\s?/g, "") }}
 {% endfor %}
 ### Tour Manager
 {% for pull in tours.pulls -%}
-* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") }}
+* {{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") | replace(r/RDCLOUD-[0-9]*:?\s?/g, "") }}
 {% endfor %}
 
 ## Core Product Updates
 
 {% for pull in core.pulls -%}
-* [{{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") }}]({{pull.html_url}})
+* [{{ pull.title | replace(r/RUN-[0-9]*:?\s?/g, "") | replace(r/RDCLOUD-[0-9]*:?\s?/g, "") }}]({{pull.html_url}})
 {% endfor %}
 
 
@@ -61,4 +61,5 @@ Check out the new features and enhancements for Rundeck Enterprise and Rundeck C
 * Alexander Abarca (alexander-variacode)
 * Alberto Hormazabal Cespedes (ahormazabal)
 * Leonel Juarez (L2JE)
+* Eric He (ehe-pd)
 * Forrest Evans (fdevans)
